@@ -1,0 +1,12 @@
+body {
+  background-color: var(--background);
+}
+
+.list {}
+
+.list-link {
+  color: var(--white);
+  opacity: .8;
+  text-decoration: none;
+  line-height: 1em;
+}
