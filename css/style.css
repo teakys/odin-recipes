@@ -28,6 +28,8 @@
 }
 
 .title {
+  width: 340px;
+  margin: 0 auto;
 }
 
 .h1-title {
@@ -36,6 +38,22 @@
   line-height: 3em;
   color: var(--white);
   font-family: var(--title-font);
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.container {
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.container div {
+  padding: 1em;
+}
+
+div .h2-title {
+  margin: 0;
 }
 
 .image {
@@ -45,6 +63,8 @@
 
 .h2-title {
   font-size: 2em;
+  margin: 1em auto;
+  width: fit-content;
   color: var(--white);
   font-family: var(--title-font);
   line-height: 2em;
@@ -59,10 +79,20 @@
 
 .list {
   color: white;
-  list-style-type: disc;
+  padding: 1em;
+  border-radius: .5em;
+  margin: 0 2em;
 }
 
 .link {
   font-weight: bold;
   line-height: 5em;
+  margin-left: 2em;
+  text-decoration: none;
+  color: var(--white);
+}
+
+.list li {
+  color: #1d1d1d;
+  margin: 1em;
 }
